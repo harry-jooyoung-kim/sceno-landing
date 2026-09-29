@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/favicon.png">
+<title>SCENO — Scent for every scene.</title>
+<meta name="description" content="SCENO is a new standard output for scent. Describe a scene and SCENO renders it into physical space through a compact cartridge device.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="SCENO — Scent for every scene.">
+<meta property="og:description" content="A technology brand that made scent behave like media. Describe a scene. SCENO renders the scent.">
+<meta property="og:image" content="assets/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="assets/img/og-image.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&display=swap">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css">
+
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<!-- reusable open-O (twin openings at top + bottom, vertical straight cuts, () look) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <mask id="openo-cut" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+    <rect x="0" y="0" width="24" height="24" fill="#fff"/>
+    <rect x="10.475" y="0" width="3.05" height="5" fill="#000"/>
+    <rect x="10.475" y="19" width="3.05" height="5" fill="#000"/>
+  </mask>
+  <symbol id="openo" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="3" mask="url(#openo-cut)"/></symbol>
+</defs></svg>
+
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo" aria-label="SCENO"><img src="assets/img/logo-tight.png" alt="SCENO"></a>
+    <div class="nav-links" id="navLinks">
+      <a href="#scene">Why SCENO</a>
+      <a href="#try">Try a scene</a>
+      <a href="#uses">Use cases</a>
+      <a href="#research">Research</a>
+      <a href="#product">SCENO One</a>
+      <a href="#contact">Contact</a>
+      <a class="btn primary nav-menu-cta" href="mailto:harrykim@mju.ac.kr?subject=SCENO%20Demo%20%2F%20Collaboration%20inquiry">Request a demo</a>
+    </div>
+    <a class="btn primary nav-cta" href="mailto:harrykim@mju.ac.kr?subject=SCENO%20Demo%20%2F%20Collaboration%20inquiry">Request a demo</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<main>
+
+<!-- 1 — HERO (white) -->
+<section class="hero" id="home" data-nav="home">
+  <div class="hero-inner">
+    <div class="kicker hero-kicker">AI scent rendering platform</div>
+    <h1 class="hero-head">The output device for AI&#8209;generated scent.</h1>
+    <p class="hero-sub lead">Describe a scene, and SCENO renders it into the air.</p>
+    <div class="hero-visual reveal">
+      <img src="assets/img/sceno-one-midnight-black.jpg" alt="SCENO One device">
+    </div>
+  </div>
+</section>
+
+<!-- proof strip (credibility, elevated) -->
+<section class="proof">
+  <ul class="proof-inner reveal">
+    <li class="proof-item"><b>1,000 ratings</b><span>human perception across 100 real scents</span></li>
+    <li class="proof-item"><b>80 → 6</b><span>notes rendered by six cartridges</span></li>
+    <li class="proof-item"><b>Working device</b><span>six cartridges, text to scent end to end</span></li>
+    <li class="proof-item"><b>6 papers · 1 patent</b><span>published or under review · patent filed</span></li>
+  </ul>
+</section>
+
+<!-- 2 — THE SCENE (full-bleed exhibition, black) -->
+<section class="scene" id="scene" data-nav="scene">
+  <div class="scene-bg" style="background-image:url('assets/img/scene_exhibition.jpg')" role="img" aria-label="Visitors in an immersive exhibition"></div>
+  <div class="container scene-inner">
+    <div class="kicker reveal">The scene</div>
+    <p class="scene-lead reveal">Popups, exhibitions, game zones.<br>Experiences are already full of<br><span class="sig">sight and sound</span>.</p>
+    <h2 class="scene-head reveal">But what about scent?</h2>
+  </div>
+</section>
+
+<!-- 3 — THE MISSING OUTPUT (black) -->
+<section class="section dark" id="technology" data-nav="scene">
+  <div class="container">
+    <div class="io-head reveal">
+      <div class="kicker">The missing output</div>
+      <h2 class="dxl">Every medium has an output. Scent does not — yet.</h2>
+      <p class="lead">Images have displays. Sound has speakers. AI can now generate scent, but there is no standard device to play it. SCENO builds that output layer.</p>
+    </div>
+    <div class="io-list" id="ioList">
+      <div class="io-row" data-io><div class="io-index">01</div><div class="io-mod">Image</div><div class="io-arrow">→</div><div class="io-out">Display</div></div>
+      <div class="io-row" data-io><div class="io-index">02</div><div class="io-mod">Sound</div><div class="io-arrow">→</div><div class="io-out">Speaker</div></div>
+      <div class="io-row" data-io><div class="io-index">03</div><div class="io-mod">Touch</div><div class="io-arrow">→</div><div class="io-out">Haptics</div></div>
+      <div class="io-row scent" data-io><div class="io-index">04</div><div class="io-mod">Scent</div><div class="io-arrow">→</div><div class="io-out"><img class="io-logo" src="assets/img/logo-tight-white.png" alt="SCENO"></div></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- 4 — TRY A SCENE (white) · real pipeline outputs from assets/js/scenes.js -->
+<section class="section light" id="try" data-nav="try">
+  <div class="container">
+    <div class="s-head reveal">
+      <div>
+        <div class="kicker">Try a scene</div>
+        <h2 class="dlg">One sentence in. Six cartridge levels out.</h2>
+      </div>
+      <p class="body">Pick a scene. The pipeline turns the sentence into a perfume recipe, then splits it across six base-scent cartridges as fan levels from 0 to 4.</p>
+    </div>
+    <div class="scene-chips reveal" id="sceneChips" role="tablist" aria-label="Example scenes"></div>
+    <div class="try-grid reveal">
+      <div class="try-col">
+        <div class="try-step"><span>01</span>Scene</div>
+        <p class="try-prompt" id="tryPrompt"></p>
+        <div class="try-step"><span>02</span>Recipe</div>
+        <div class="try-recipe" id="tryRecipe"></div>
+      </div>
+      <div class="try-arrow" aria-hidden="true">→</div>
+      <div class="try-col">
+        <div class="try-step"><span>03</span>Six cartridges · fan level 0–4</div>
+        <div class="try-carts" id="tryCarts"></div>
+        <div class="try-meta" id="tryMeta"></div>
+      </div>
+    </div>
+    <p class="try-note reveal">Actual outputs of the SCENO research pipeline (LLM + rule engine → six-cartridge renderer), one run per scene, shown as generated.</p>
+  </div>
+</section>
+
+<!-- 5 — USE CASES (black, exhibition photos) -->
+<section class="section dark" id="uses" data-nav="uses">
+  <div class="container">
+    <div class="s-head reveal">
+      <div>
+        <div class="kicker">Where it plays</div>
+        <h2 class="dlg">When the scene changes, the scent changes with it.</h2>
+      </div>
+      <p class="body">Spaces that rebuild the room every few weeks, and change the scene every few minutes, need scent that can change without a new formula.</p>
+    </div>
+    <div class="use-grid reveal">
+      <article class="use"><div class="use-img" style="background-image:url('assets/img/use_popup.jpg')"></div><h3>Brand popups</h3><p>A new space every season, with a scent written for each campaign instead of one fixed diffuser.</p></article>
+      <article class="use"><div class="use-img" style="background-image:url('assets/img/use_ip.jpg')"></div><h3>Game &amp; IP zones</h3><p>Scent cues that follow the world on screen, from a forest level to a city at night.</p></article>
+      <article class="use"><div class="use-img" style="background-image:url('assets/img/use_exhibition.jpg')"></div><h3>Exhibitions &amp; media art</h3><p>Each room of the show gets its own scene, played from the same six cartridges.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- 6 — RESEARCH (white) -->
+<section class="section light" id="research" data-nav="research">
+  <div class="container">
+    <div class="s-head reveal">
+      <div>
+        <div class="kicker">One research chain</div>
+        <h2 class="dlg">From language to experienced scent.</h2>
+      </div>
+      <p class="body">Three steps, one path: make a scent that can actually be manufactured, prove people still read its meaning, then shrink it into a compact renderer.</p>
+    </div>
+
+    <div class="research-steps reveal" id="researchSteps">
+      <button class="rstep active" data-panel="generation"><span class="rnum">01</span><span><b>Generate</b><small>Make it manufacturable</small></span></button>
+      <button class="rstep" data-panel="perception"><span class="rnum">02</span><span><b>Perceive</b><small>Preserve the meaning</small></span></button>
+      <button class="rstep" data-panel="cartridge"><span class="rnum">03</span><span><b>Render</b><small>Make it compact</small></span></button>
+    </div>
+
+    <div class="rshell reveal">
+      <div class="rview">
+        <div class="rcopy">
+          <div class="kicker" id="rKicker">Generation · Hybrid LLM + Rules</div>
+          <div class="rbig" id="rBig">50/50</div>
+          <div class="rtitle" id="rTitle">Every evaluated recipe satisfied the manufacturing constraints.</div>
+          <p class="rdesc" id="rDesc">An LLM chooses scene-relevant notes from a curated 80-note palette. A deterministic rule engine then enforces top / middle / base structure and formulation constraints, turning free-form language into a producible scent asset.</p>
+          <div class="rsource" id="rSource">Manufacturability evaluation · 50 recipes · curated 80-note palette</div>
+          <button class="rnext" id="rNext" type="button">Next: test whether people can read the meaning <span>→</span></button>
+        </div>
+        <div class="rviz" id="rViz"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 7 — PRODUCT (fog) -->
+<section class="section fog" id="product" data-nav="product">
+  <div class="container product-grid">
+    <div class="product-copy reveal">
+      <div class="kicker">SCENO One</div>
+      <h2 class="dlg">A new speaker for scent.</h2>
+      <p class="lead">A compact output device that renders generated scents into physical space through a small set of blend cartridges.</p>
+      <div class="product-points">
+        <div class="ppoint"><em>01</em><div><b>Six base scents</b><p>Six pre-blended, pre-aged cartridges instead of one per note, so no new formulation or aging for each scene.</p></div></div>
+        <div class="ppoint"><em>02</em><div><b>On-demand rendering</b><p>Any recipe is split across the six cartridges and played back as a four-step output level for each.</p></div></div>
+        <div class="ppoint"><em>03</em><div><b>Built for the room</b><p>A consumer-scale output device, not a laboratory formulation machine.</p></div></div>
+      </div>
+    </div>
+    <div class="product-stage reveal" id="productSlider">
+      <div class="product-figure">
+        <img id="productImg" src="assets/img/sceno-one-stone-white.jpg" alt="SCENO One">
+      </div>
+      <div class="product-ui">
+        <div>
+          <div class="product-meta-label">Color</div>
+          <div class="product-name" id="productName">Stone White</div>
+          <p class="product-desc" id="productDesc">A light neutral finish designed to sit naturally in galleries, studios, and living spaces.</p>
+        </div>
+        <div class="prod-arrows">
+          <button class="prod-arrow" data-dir="-1" aria-label="Previous color">‹</button>
+          <button class="prod-arrow" data-dir="1" aria-label="Next color">›</button>
+        </div>
+      </div>
+      <div class="prod-dots" id="prodDots">
+        <button class="prod-dot" data-i="0" aria-label="Midnight Black"></button>
+        <button class="prod-dot active" data-i="1" aria-label="Stone White"></button>
+        <button class="prod-dot" data-i="2" aria-label="Warm Titanium"></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 8 — SCENTTRACK (white) -->
+<section class="section light" id="scenttrack" data-nav="scenttrack">
+  <div class="container">
+    <div class="s-head reveal">
+      <div>
+        <div class="kicker">ScentTrack</div>
+        <h2 class="dlg">Scent, like a soundtrack.</h2>
+      </div>
+      <p class="body">Video and audio live on a timeline. Scent can too. ScentTrack places olfactory cues beside picture and sound as a time-based media layer.</p>
+    </div>
+    <div class="track-ui reveal">
+      <div class="ruler"><span>00:00</span><span>00:30</span><span>01:00</span><span>01:30</span><span>02:00</span></div>
+      <div class="trow"><div class="tlabel">Video</div><div class="lane"><div class="clip" style="left:2%;width:30%">Forest</div><div class="clip" style="left:36%;width:28%">City</div><div class="clip" style="left:70%;width:26%">Ocean</div></div></div>
+      <div class="trow"><div class="tlabel">Audio</div><div class="lane"><div class="clip" style="left:2%;width:44%">Ambient score</div><div class="clip" style="left:50%;width:46%">Night sequence</div></div></div>
+      <div class="trow"><div class="tlabel">Scent</div><div class="lane" id="scentLane">
+        <button class="clip scent active" style="left:2%;width:30%">Cold morning forest</button>
+        <button class="clip scent" style="left:36%;width:28%">Rain on concrete</button>
+        <button class="clip scent" style="left:70%;width:26%">Clean sea air</button>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 9 — PLATFORM (black) -->
+<section class="section dark" id="platform" data-nav="platform">
+  <div class="container platform-grid">
+    <div class="reveal">
+      <div class="kicker">One interface for a new sense</div>
+      <h2 class="dlg">Beyond a device. An output ecosystem.</h2>
+    </div>
+    <div class="platform-list reveal">
+      <div class="plat"><div><h3>SCENO One</h3><p>The physical output device that renders generated scent into space.</p></div><em>Hardware</em></div>
+      <div class="plat"><div><h3>Blend Cartridge</h3><p>A compact cartridge basis optimized for a target application or user distribution.</p></div><em>Consumable</em></div>
+      <div class="plat"><div><h3>ScentTrack</h3><p>A media format for placing scent on the timelines of video, games, and XR.</p></div><em>Format</em></div>
+      <div class="plat"><div><h3>SCENO API</h3><p>An interface that connects text, scenes, and content events to scent output.</p></div><em>Platform</em></div>
+    </div>
+  </div>
+</section>
+
+<!-- 10 — CONTACT (white, signal accent) -->
+<section class="section light closing" id="contact" data-nav="contact">
+  <div class="container">
+    <h2 class="hero-type reveal">Scent for every scene.</h2>
+    <p class="lead reveal">Bring SCENO to your popup, exhibition, film, or game. We render the scene into scent.</p>
+    <a class="btn primary reveal" href="mailto:harrykim@mju.ac.kr?subject=SCENO%20Demo%20%2F%20Collaboration%20inquiry">Request a demo</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <img src="assets/img/logo-tight.png" alt="SCENO">
+    <span class="micro">© 2026 SCENO · A new standard output for scent.</span>
+  </div>
+</footer>
+
+</main>
+<script src="assets/js/scenes.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

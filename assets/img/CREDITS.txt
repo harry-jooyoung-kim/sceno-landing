@@ -1,0 +1,10 @@
+Exhibition photos (scene_exhibition.jpg, use_exhibition.jpg)
+= crops/composite of three Unsplash photos (same set as ir_deck/assets/scene_bg.jpg).
+Unsplash License: free for commercial use, attribution not required.
+  Redd Francisco (@reddfrancisco)  https://unsplash.com/photos/022KkmpbSsw
+  Ren Arante                        https://unsplash.com/photos/n8NHDFvhT0k
+  Fun Work (@funwork)               https://unsplash.com/photos/x11gmK61JgU
+
+use_popup.jpg — Raymond Yeung (@optiny), https://unsplash.com/photos/7cJdB0OsHAM  (pop-up installation, Mongkok mall, Hong Kong)
+use_ip.jpg    — Les Taylor (@les_photograph), https://unsplash.com/photos/yyXZsbY4ZOA  (people gathered around a game screen)
+Both: Unsplash License, free for commercial use. Center-cropped to 4:3 and converted to grayscale for the page.
